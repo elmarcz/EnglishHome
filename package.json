@@ -1,0 +1,15 @@
+{
+  "name": "web-ingles",
+  "version": "1.0.0",
+  "description": "Clases de inglés en línea",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marc Medrano",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.43.4",
+    "scss": "^0.2.4"
+  }
+}
