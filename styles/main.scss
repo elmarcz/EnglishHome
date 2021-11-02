@@ -179,9 +179,23 @@ $title: 4em;
   background-color: #5747BB;
 }
 
-.conainer-contact {
+.target-contact {
   display: flex;
   flex-direction: wrap;
+}
+
+.target-img{
+    background: #4091EC;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px 0 0 10px;
+}
+
+.target-txt{
+    background: #fff;
+    height: 400px;
+    width: 500px;
+    border-radius: 0 10px 10px 0;
 }
 /*  FOOTER  */
 
