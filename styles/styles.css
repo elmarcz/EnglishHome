@@ -165,7 +165,7 @@
   text-align: center;
   height: calc(100vh - 70px);
   font-family: "Roboto", sans-serif;
-  background-color: #5747BB;
+  background-color: #5747bb;
 }
 
 .target-contact {
@@ -174,24 +174,19 @@
 }
 
 .target-img {
-  background: #4091EC;
-  height: 400px;
-  width: 250px;
-  border-radius: 10px 0 0 10px;
+  display: flex;
 }
-.target-img .user {
-  margin-top: 10px;
+.target-img .watsapp {
+  margin: 10px;
+  border-radius: 10px;
+  padding: 2px;
+  background-color: #fff;
 }
-.target-img .watsapp .app {
-  margin-top: 30px;
-  height: 50px;
-}
-
-.target-txt {
-  background: #fff;
-  height: 400px;
-  width: 500px;
-  border-radius: 0 10px 10px 0;
+.target-img .gmail {
+  margin: 10px;
+  padding: 2px;
+  border-radius: 10px;
+  background-color: #fff;
 }
 
 /*  FOOTER  */
