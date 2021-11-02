@@ -28,9 +28,23 @@
   font-size: 1.6em;
   font-family: "Architects Daughter", cursive;
 }
+#header img {
+  transition: all 300ms;
+}
+#header img:hover {
+  position: relative;
+  transform: scale(1.1);
+}
 
 #text {
   text-align: left;
+  transition: all 300ms;
+  z-index: 1;
+}
+
+#text:hover {
+  position: relative;
+  transform: scale(1.1);
 }
 
 /* ABOUT US */
@@ -41,7 +55,7 @@
   text-align: center;
   height: calc(100vh - 70px);
   font-family: "Roboto", sans-serif;
-  background-color: #fff5fd;
+  background-color: #d6eaf8;
 }
 
 #square {
@@ -65,7 +79,7 @@
   text-align: center;
   height: calc(100vh - 70px);
   font-family: "Roboto", sans-serif;
-  background-color: #ff96ad;
+  background-color: #f5b7b1;
 }
 
 #square-skills {
@@ -85,6 +99,11 @@
 #square-skills .skills {
   display: flex;
   font-size: 1.5em;
+  transition: all 300ms;
+}
+#square-skills .skills:hover {
+  position: relative;
+  transform: scale(1.2);
 }
 #square-skills .one {
   display: flex;
@@ -113,7 +132,7 @@
   text-align: center;
   height: calc(100vh - 70px);
   font-family: "Roboto", sans-serif;
-  background-color: #005a8d;
+  background-color: #5dade2;
 }
 
 .target {
@@ -128,7 +147,8 @@
   margin: 10px;
 }
 .target h1 {
-  font-size: 1em;
+  font-size: 1.4em;
+  margin-top: 10px;
 }
 .target p {
   margin-top: 10px;
@@ -165,28 +185,36 @@
   text-align: center;
   height: calc(100vh - 70px);
   font-family: "Roboto", sans-serif;
-  background-color: #5747bb;
+  background-color: #d2b4de;
 }
 
 .target-contact {
   display: flex;
   flex-direction: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .target-img {
   display: flex;
 }
-.target-img .watsapp {
+.target-img .ig,
+.target-img .gm {
+  padding: 1.2em;
+  border-radius: 20px;
   margin: 10px;
-  border-radius: 10px;
-  padding: 2px;
-  background-color: #fff;
+  background: #34495e;
+  text-decoration: none;
+  color: #fff;
+  transition: all 300ms;
 }
-.target-img .gmail {
-  margin: 10px;
-  padding: 2px;
-  border-radius: 10px;
-  background-color: #fff;
+.target-img .gm:hover {
+  position: relative;
+  transform: scale(1.1);
+}
+.target-img .ig:hover {
+  position: relative;
+  transform: scale(1.1);
 }
 
 /*  FOOTER  */

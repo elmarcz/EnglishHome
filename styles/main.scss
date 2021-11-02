@@ -30,10 +30,23 @@ $title: 4em;
     font-size: 1.6em;
     font-family: "Architects Daughter", cursive;
   }
+  img {
+    transition: all 300ms;
+  }
+  img:hover {
+    position: relative;
+    transform: scale(1.1);
+  }
 }
 
 #text {
   text-align: left;
+  transition: all 300ms;
+  z-index: 1;
+}
+#text:hover {
+  position: relative;
+  transform: scale(1.1);
 }
 
 /* ABOUT US */
@@ -47,7 +60,7 @@ $title: 4em;
 
   font-family: "Roboto", sans-serif;
 
-  background-color: #fff5fd;
+  background-color: #d6eaf8;
 }
 
 #square {
@@ -72,7 +85,7 @@ $title: 4em;
   text-align: center;
   height: calc(100vh - 70px);
   font-family: "Roboto", sans-serif;
-  background-color: #ff96ad;
+  background-color: #f5b7b1;
 }
 
 #square-skills {
@@ -91,6 +104,11 @@ $title: 4em;
   .skills {
     display: flex;
     font-size: 1.5em;
+    transition: all 300ms;
+  }
+  .skills:hover {
+    position: relative;
+    transform: scale(1.2);
   }
   .one {
     display: flex;
@@ -121,7 +139,7 @@ $title: 4em;
   text-align: center;
   height: calc(100vh - 70px);
   font-family: "Roboto", sans-serif;
-  background-color: #005a8d;
+  background-color: #5dade2;
 }
 .target {
   display: flex;
@@ -135,7 +153,8 @@ $title: 4em;
   margin: 10px;
 
   h1 {
-    font-size: 1em;
+    font-size: 1.4em;
+    margin-top: 10px;
   }
 
   p {
@@ -176,28 +195,36 @@ $title: 4em;
   text-align: center;
   height: calc(100vh - 70px);
   font-family: "Roboto", sans-serif;
-  background-color: #5747bb;
+  background-color: #d2b4de;
 }
 
 .target-contact {
   display: flex;
   flex-direction: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .target-img {
   display: flex;
 
-  .watsapp {
+  .ig,
+  .gm {
+    padding: 1.2em;
+    border-radius: 20px;
     margin: 10px;
-    border-radius: 10px;
-    padding: 2px;
-    background-color: #fff;
+    background: #34495e;
+    text-decoration: none;
+    color: #fff;
+    transition: all 300ms;
   }
-  .gmail {
-    margin: 10px;
-    padding: 2px;
-    border-radius: 10px;
-    background-color: #fff;
+  .gm:hover {
+    position: relative;
+    transform: scale(1.1);
+  }
+  .ig:hover {
+    position: relative;
+    transform: scale(1.1);
   }
 }
 /*  FOOTER  */
